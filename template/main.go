@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	data, error := os.ReadFile("test.txt")
+	data, error := os.ReadFile("input.txt")
 
 	input := string(data)
 
